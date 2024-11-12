@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e3f2fd; /* 부드러운 파란색 배경 */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.score, .timer {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.game-area {
+    margin: 20px 0;
+}
+
+.word-list {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 50px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+#user-input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-over {
+    margin-top: 20px;
+}
